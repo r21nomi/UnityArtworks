@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2035111234}
-  m_IndirectSpecularColor: {r: 6.066754, g: 8.58853, b: 13.636173, a: 1}
+  m_IndirectSpecularColor: {r: 4.640138, g: 16.693554, b: 30.165304, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!73398921 &188347377
 VFXRenderer:
   m_ObjectHideFlags: 2
@@ -146,7 +146,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188347376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -198,7 +198,7 @@ VisualEffect:
       m_Array: []
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 1, y: 0, z: 0.3907385, w: 0}
+      - m_Value: {x: 5.278032, y: 0, z: 2.0698164, w: 0}
         m_Name: color
         m_Overridden: 1
     m_Uint:
@@ -503,7 +503,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 600
+  displayLightIntensity: 1200
   displayAreaLightEmissiveMesh: 0
   areaLightCookie: {fileID: 0}
   areaLightShadowCone: 120
@@ -530,9 +530,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 2
-  m_Color: {r: 0.054901984, g: 0.9254902, b: 0.38677028, a: 1}
-  m_Intensity: 47.746483
-  m_Range: 60
+  m_Color: {r: 0, g: 1, b: 0.67651725, a: 1}
+  m_Intensity: 95.492966
+  m_Range: 120
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -668,8 +668,8 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
-  clearColorMode: 2
-  backgroundColorHDR: {r: 0.78983116, g: 1, b: 0, a: 0}
+  clearColorMode: 1
+  backgroundColorHDR: {r: 0.11974902, g: 0.21115376, b: 0.3679245, a: 0}
   clearDepth: 1
   volumeLayerMask:
     serializedVersion: 2
@@ -758,13 +758,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297650280}
-  m_LocalRotation: {x: -0.058865167, y: 0.8975223, z: -0.12631147, w: -0.4183709}
-  m_LocalPosition: {x: 2.5831509, y: 1.6600691, z: 2.9680426}
+  m_LocalRotation: {x: -0.10114369, y: 0.6562662, z: -0.085644335, w: -0.74279857}
+  m_LocalPosition: {x: 3.62, y: 3.6, z: -0.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 17.5, y: 109.65, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.229001, y: 277.035, z: -0.328}
 --- !u!114 &1297650285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0a1f69be94b5144798b61d8427bb5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 188347376}
+  target: {fileID: 2058046826}
   rotateSpeed: 30
 --- !u!114 &1297650287
 MonoBehaviour:
@@ -1399,7 +1399,7 @@ VisualEffect:
       m_Array: []
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 0, y: 1, z: 0.4692471, w: 0}
+      - m_Value: {x: 1024, y: 0, z: 650.5412, w: 0}
         m_Name: color
         m_Overridden: 1
     m_Uint:
@@ -1424,7 +1424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058046826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17, y: 0, z: 1.512}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1235425178}

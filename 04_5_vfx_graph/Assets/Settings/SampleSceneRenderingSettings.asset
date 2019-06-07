@@ -251,7 +251,7 @@ MonoBehaviour:
     m_Value: 0
   sunSize:
     m_OverrideState: 0
-    m_Value: 0.04
+    m_Value: 0.052
     min: 0
     max: 1
   sunSizeConvergence:
@@ -265,14 +265,14 @@ MonoBehaviour:
     min: 0
     max: 5
   skyTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.21960782, g: 0.8117647, b: 0.6677397, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   groundColor:
-    m_OverrideState: 0
-    m_Value: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.33107865, g: 0.45969176, b: 0.754717, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
